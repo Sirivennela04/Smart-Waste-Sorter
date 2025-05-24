@@ -6,7 +6,7 @@
     "target": "es6",
     "esModuleInterop": true
   },
-  "include": ["server.ts"],
+  "include": ["api/server.ts"],
   "references": [
     { "path": "tsconfig.app.json" },
     { "path": "tsconfig.node.json" }
