@@ -24,12 +24,17 @@ export const Footer: React.FC = () => {
                 <Github className="h-6 w-6" />
               </a>
               <a
-                href="#"
+                href="https://github.com/Sirivennela04/Smart-Waste-Sorter"
                 className="text-gray-400 hover:text-white transition-colors"
                 aria-label="Information"
               >
                 <Info className="h-6 w-6" />
               </a>
+              <a
+                href="https://github.com/Sirivennela04/Smart-Waste-Sorter/blob/main/README.md"
+                className="text-gray-400 hover:text-white transition-colors"
+                aria-label="Information"
+              >
             </div>
           </div>
         </div>
