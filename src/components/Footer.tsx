@@ -17,24 +17,19 @@ export const Footer: React.FC = () => {
             <h3 className="text-white font-semibold mb-4">Connect With Us</h3>
             <div className="flex gap-4">
               <a
-                href="#"
-                className="text-gray-400 hover:text-white transition-colors"
-                aria-label="GitHub"
-              >
-                <Github className="h-6 w-6" />
-              </a>
-              <a
                 href="https://github.com/Sirivennela04/Smart-Waste-Sorter"
                 className="text-gray-400 hover:text-white transition-colors"
-                aria-label="Information"
+                aria-label="Github"
               >
-                <Info className="h-6 w-6" />
+                <Github className="h-6 w-6" />
               </a>
               <a
                 href="https://github.com/Sirivennela04/Smart-Waste-Sorter/blob/main/README.md"
                 className="text-gray-400 hover:text-white transition-colors"
                 aria-label="Information"
               >
+                <Info className="h-6 w-6" />
+              </a>
             </div>
           </div>
         </div>
